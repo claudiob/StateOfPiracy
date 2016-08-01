@@ -30,7 +30,7 @@ The research will involve the following topics
 
 ### Step 1: Getting Top Sites list
 
-Stats on the most popular content within Italy will be derived by [Similarweb][sw], using two different statistics on the "Indystry Analysis" platform:
+Stats on the most popular content within Italy will be derived by [Similarweb][sw], using two different statistics on the "Industry Analysis" platform:
 
 * Arts and Entairtainment / Italy ([here][1])
 
@@ -39,7 +39,7 @@ Notes:
 * Cut-and-paste generate content that can be cleaned with regext 2 substitution: ^[0-9#]+(.*)$,  and #(.*) with nil;
 * Content can be sorted and de-duplicated;
 
-While Automated retrival of the contentent can be (supposedly) achieved via API (as well as XLS download in more-costly memberships), in this preliminary version data will be manually fetched and stored as CSV at the beginning of the process.  
+While Automated retrival of the content can be (supposedly) achieved via API (as well as XLS download in more-costly memberships), in this preliminary version data will be manually fetched and stored as CSV at the beginning of the process.  
   
 Deliverables of this step are:
 
@@ -48,13 +48,13 @@ Deliverables of this step are:
 
 ### Step 2: Getting Traffic Data
 
-In order to better understand data, each domain from Step 1 will be automatically analysed to derive meaningful data. Oonce again data for each domain name Italy (and overall) will be derived by [Similarweb][sw], using ollowing statistics:
+In order to better understand data, each domain from Step 1 will be automatically analysed to derive meaningful data. Once again data for each domain name in Italy (and overall) will be derived by [Similarweb][sw], using the following statistics:
 
 * From [Main Window][3] for Last 6m: *Total Visits, Avg. Monthly Visits, Pages per Visit, Desktop/Mobile Percentages*;
 * From [Geography][4]: *Italy Percentage*;
 * (From [Traffic Overview][5]: *Direct, Google Search, Yahoo Search, Bing Search*);
 
-While Automated retrival of the contentent can be via (costly) APIs, in this preliminary version data will fetched using Script Automation (Watir Webdriver) and stored as CSV at the beginning of the process. 
+While Automated retrival of the content can be retrieved via (costly) APIs, in this preliminary version data will be fetched using Script Automation (Watir Webdriver) and stored as CSV at the beginning of the process. 
 
 Notes:
 
@@ -73,7 +73,7 @@ Deliverables of this step are:
 
 ### Step 3: Getting Network Data
 
-Networing data will be derived, for each top domain, using automation.
+Networking data will be derived, for each top domain, using automation.
 
 Deliverables of this step are:
 
